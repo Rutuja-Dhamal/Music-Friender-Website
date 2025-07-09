@@ -1,0 +1,715 @@
+/*--------------------------style.css-------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/*Home*/
+.main{
+    width: 100%;
+    background:url(bg.webp);
+    background-size: content;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    /* width: 1200px; */
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ece6e2;
+    font-size: 44px;
+    font-family: 'Island Moments', cursive;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top:7px
+}
+
+.logo_shape{
+    height:50px;
+    width:50px;
+    border: 2px black solid;
+    background-image: url("logo.png");
+    background-size:contain;
+    border-radius: 50%;
+    margin-left:15px;
+    margin-top:15px;
+    float:left;
+}
+
+.logo1{
+    color: #ece6e2;
+    font-size: 38px;
+    font-family: 'Island Moments', cursive;
+    padding-left: 5px;
+    float: left;
+    padding-top: 10px;
+    margin-top:5px
+}
+
+.logo_shape1{
+    height:50px;
+    width:50px;
+    border: 2px black solid;
+    background-image: url("logo.png");
+    background-size:contain;
+    border-radius: 50%;
+    margin-left:0px;
+    margin-top:0px;
+    float:left;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    font-size:20px;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Zilla Slab', serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid black;
+    margin-top:20px;
+    color: #8a7d7d;
+    border-right: none;
+    font-size: 15px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: black;
+    border: 6px solid black;
+    margin-top:20px;
+    color:white;
+    font-size: 15px;
+    font-family: 'Zilla Slab', serif;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color:grey;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height:20px;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    
+    font-size: 50px;
+    padding-left:310px;
+    margin-top:7%;
+    letter-spacing: 2px;
+    font-family: 'Zilla Slab', serif;
+    color: #000;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #101010;
+    border: none;
+    margin-top:17px;
+    margin-left:530px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: hsl(0, 11%, 96%);
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #615d5d;
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 65px
+}
+.songs{
+  height: 700px;
+  width: 1517px;
+  background-color: #000;
+}
+.img1{
+  width:1517px ;
+  height:400px;
+  background-image: url("img1.webp");
+}
+
+/*slide*/
+
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.slide{
+  display: flex;
+  padding: 0 35px;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background:transparent;
+}
+.wrapper{
+  display: flex;
+  max-width: 1200px;
+  position: relative;
+}
+.wrapper i{
+  top: 50%;
+  height: 44px;
+  width: 44px;
+  color: #343F4F;
+  cursor: pointer;
+  font-size: 1.15rem;
+  position: absolute;
+  text-align: center;
+  line-height: 44px;
+  background: #fff;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.9);
+}
+.wrapper i:hover{
+  background: #f2f2f2;
+}
+.wrapper i:first-child{
+  left: -22px;
+  display: none;
+}
+.wrapper i:last-child{
+  right: -22px;
+}
+.wrapper .carousel{
+  font-size: 0px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+.carousel.dragging{
+  cursor: grab;
+  scroll-behavior: auto;
+}
+.carousel.dragging img{
+  pointer-events: none;
+}
+.carousel img{
+  height: 340px;
+  object-fit: cover;
+  user-select: none;
+  margin-left: 14px;
+  width: calc(100% / 3);
+}
+.carousel img:first-child{
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 900px) {
+  .carousel img{
+    width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .carousel img{
+    width: 100%;
+  }
+}
+/*Login*/
+.form{
+    width:350px;
+    height:420px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top:150px;
+    left:600px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: 'Katibeh', cursive;
+    text-align: center;
+    color: white;
+    font-size:30px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 2px;
+    padding-left:50px;
+}
+
+.form input{
+  width:300px;
+  height: 35px;
+  background-color: #3b3734;
+  border-radius: 15px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top:10px;
+  font-family: 'Katibeh', cursive;
+  padding-left: 10px;
+  
+}
+
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #998c8c;
+}
+
+.btnn{
+    width:200px;
+    height: 40px;
+    margin-left:60px;
+    background:#C8AE7D;
+    border: none;
+    margin-top:50px;
+    font-size: 18px;
+    border-radius:20px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #0a0a0a;
+    font-weight: bold;
+}
+.a1 a{
+  color: white;
+  padding-left:130px;
+  text-decoration: none;
+  position: absolute;
+  bottom:10px;
+}
+a:hover{
+  color: #509bf5;
+}
+
+  /*library*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #121212;
+  font-family: 'Zilla Slab', serif;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 254px;
+  background-color: #000000;
+  padding: 24px;
+}
+
+.sidebar .navbar .logo_shape1{
+  height:50px;
+  width:50px;
+  border: 2px black solid;
+  background-image: url("logo.png");
+  background-size:contain;
+  border-radius: 50%;
+  margin-left:0px;
+  margin-top:0px;
+  float:left;
+}
+
+.sidebar .navbar .logo1{
+  color: #ece6e2;
+  font-size: 37px;
+  font-family: 'Island Moments', cursive;
+  padding-left: 5px;
+  float: left;
+  padding-top: 10px;
+  margin-top:2px
+}
+
+
+.sidebar .navigation ul {
+  list-style: none;
+  margin-top: 20px;
+}
+.sidebar .navigation ul li {
+  padding: 10px 0px;
+}
+.sidebar .navigation ul li a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+}
+.sidebar .navigation ul li a:hover,
+.sidebar .navigation ul li a:active,
+.sidebar .navigation ul li a:focus {
+  color: #ffffff;
+}
+.sidebar .navigation ul li a:hover .fa,
+.sidebar .navigation ul li a:active .fa,
+.sidebar .navigation ul li a:focus .fa {
+  color: #b3b3b3;
+}
+.sidebar .navigation ul li .fa {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.sidebar .navigation ul li a:hover .fa:hover,
+.sidebar .navigation ul li a:hover .fa:active,
+.sidebar .navigation ul li a:hover .fa:focus {
+  color: #ffffff;
+}
+.sidebar .policies {
+  position: absolute;
+  bottom: 100px;
+}
+.sidebar .policies ul {
+  list-style: none;
+}
+.sidebar .policies ul li {
+  padding-bottom: 5px;
+}
+.sidebar .policies ul li a {
+  color: #b3b3b3;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 10px;
+}
+.sidebar .policies ul li a:hover,
+.sidebar .policies ul li a:active,
+.sidebar .policies ul li a:focus {
+  text-decoration: underline;
+}
+
+.main-container {
+  margin-left: 275px;
+  margin-bottom: 100px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #101010;
+  padding: 12px 30px 40px 700px;
+}
+.topbar .prev-next-buttons button {
+  color: #7a7a7a;
+  cursor: not-allowed;
+  width: 34px;
+  height: 34px;
+  border-radius: 100%;
+  font-size: 14px;
+  border: 0px;
+  background-color: #090909;
+  margin-right: 10px;
+}
+.topbar .navbar {
+  display: flex;
+  align-items: center;
+}
+.topbar .navbar ul {
+  list-style: none;
+}
+.topbar .navbar ul li {
+  display: inline-block;
+  margin: 0px 8px;
+  width: 70px;
+}
+.topbar .navbar ul li a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 0px;
+}
+.topbar .navbar ul li a:hover,
+.topbar .navbar ul li a:active,
+.topbar .navbar ul li a:focus {
+  color: #ffffff;
+  font-size: 15px;
+}
+.topbar .navbar ul li.divider {
+  color: #ffffff;
+  font-size: 26px;
+  margin: 0px 20px;
+  width: auto;
+}
+.topbar .navbar button {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 30px;
+  border: 0px;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.topbar .navbar button:hover,
+.topbar .navbar button:active,
+.topbar .navbar button:focus {
+  background-color: #f2f2f2;
+}
+
+ .spotify-playlists {
+  padding: 20px 40px;
+}
+ .spotify-playlists h2 {
+  color: #ffffff;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+ .spotify-playlists .list {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+}
+ .spotify-playlists .list .item {
+  min-width: 140px;
+  width: 160px;
+  padding: 15px;
+  background-color: #181818;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all ease 0.4s;
+}
+.spotify-playlists .list .item:hover {
+  background-color: #252525;
+}
+.spotify-playlists .list .item img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+ .spotify-playlists .list .item .play {
+  position: relative;
+}
+.spotify-playlists .list .item .play .fa {
+  position: absolute;
+  right: 10px;
+  top: -60px;
+  padding: 18px;
+  background-color: #AEC3AE;
+  border-radius: 100%;
+  opacity: 0;
+  transition: all ease 0.4s;
+}
+.spotify-playlists .list .item:hover .play .fa {
+  opacity: 1;
+  transform: translateY(-20px);
+}
+.spotify-playlists .list .item h4 {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+ .spotify-playlists .list .item p {
+  color: #989898;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
+}
+ .spotify-playlists hr {
+  margin: 70px 0px 0px;
+  border-color: #636363;
+}
+
+
+/*front page*/
+.about{
+    height:400px;
+    width:1215px;
+    margin-left:130px;
+    background-color:black;
+    border:1px #D5FFE4 solid;
+    border-radius:20px;
+}
+
+.about .info{
+    color:white;
+    font-size:25px;
+    font-family:'Roboto',sans-serif;
+    margin-top:20px;
+    margin-left:40px;
+}
+
+.about .details{
+  font-size:16px;
+  color:white;
+  font-family: 'Roboto',sans-serif;
+  margin-top:10px;
+  margin-left:40px;
+
+}
+
+footer{
+  height:600px;
+  width:1215px;
+  margin-left:130px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  align-content: center;
+}
+
+footer .container1{
+   height:220px;
+   width:300px;
+   color:white;
+}
+
+ .info1{
+  margin-top:10px;
+  margin-left:10px;
+  font-family: 'Roboto',sans-serif;
+}
+
+ .para{
+  margin-top:15px;
+  margin-left:10px;
+  font-family: 'Roboto',sans-serif;
+  font-size:12px;
+ }
+
+ .contact{
+  height:100px;
+  width:1215px;
+  background-color:#21252D;
+
+ }
+
+ .info2{
+  margin-top:40px;
+  margin-left:10px;
+  color:rgb(199, 179, 179);
+  font-size:18px;
+  align-items:center;
+  font-family: 'Roboto',sans-serif;
+ 
+ }
+
+ .social-icons {
+  font-size: 36px;
+  cursor: pointer;
+  height: 50px;
+  width:150px;
+  margin-right: 20px;
+  display: flex;
+  float: right;
+  margin-top:35px;
+}
+
+.social-icons a{
+  color:#94A684;
+}
+
+.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover,.fa-facebook:hover {
+  color: white;
+}
+

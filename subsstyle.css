@@ -1,0 +1,214 @@
+/*-----------------substyle.css-------------------*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: azure;
+    font-family: 'Katibeh', cursive;
+    margin-left: 420px;
+    font-size: 70px;
+
+}
+
+.box {
+    height: 550px;
+    width:1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    grid-row-gap: 10px;
+}
+
+.box1 {
+    margin-top: 28px;
+    margin-left:30px;
+    height: 480px;
+    width: 420px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+
+
+}
+
+.box1 h6 {
+    font-size: 40px;
+    width: 250px;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-family: 'Katibeh', cursive;
+
+}
+
+.box11 {
+    position: absolute;
+    left:430px;
+    top: 120px;
+    height: 70px;
+    width: 90px;
+
+
+}
+
+.box11 h6 {
+    font-size: 40px;
+    align-items: right;
+    font-family: 'Katibeh', cursive;
+    width: 50px;
+}
+
+.box11 p {
+    font-family: 'Katibeh', cursive;
+    font-size: 22px;
+
+
+}
+
+
+.box1p1 {
+    margin-top: 90px;
+    margin-left: 100px;
+    font-family: 'Katibeh', cursive;
+    font-size: 22px;
+
+}
+
+.box1p2 {
+    margin-left: 160px;
+    font-family: 'Katibeh', cursive;
+    font-size: 22px;
+}
+
+.box1p3 {
+    margin-left: 50px;
+    font-family: 'Katibeh', cursive;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+
+button {
+    height: 45px;
+    width: 160px;
+    border-radius: 15px;
+    margin-left: 125px;
+    margin-top: 40px;
+    background-color: #FFF6E0;
+    font-size: 30px;
+    font-family: 'Katibeh', cursive;
+    padding-bottom: 10px;
+}
+
+button:hover {
+    background-color:  #b6b1a3;
+}
+
+
+.box2 {
+    margin-top: 28px;
+    margin-left: 20px;
+    height: 480px;
+    width: 420px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+
+}.box21 {
+    position: absolute;
+    left: 885px;
+    top: 120px;
+    height: 70px;
+    width: 90px;
+
+
+}
+
+.box21 h6 {
+    font-size: 40px;
+    align-items: right;
+    font-family: 'Katibeh', cursive;
+    width: 50px;
+}
+
+.box21 p {
+    font-family: 'Katibeh', cursive;
+    font-size: 22px;
+
+
+}
+
+.box2p1 {
+    margin-top: 70px;
+    margin-left: 50px;
+    font-family: 'Katibeh', cursive;
+    font-size: 22px;
+
+}
+
+
+.box2p2 {
+    margin-left: 110px;
+    font-family: 'Katibeh', cursive;
+    font-size: 22px;
+}
+
+.box3 {
+
+    margin-top: 28px;
+    margin-left: 20px;
+    height: 480px;
+    width: 420px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+
+}
+
+.box31 {
+    position: absolute;
+    right: 115px;
+    top: 120px;
+    height: 70px;
+    width: 90px;
+
+
+}
+
+.box31 h6 {
+    font-size: 40px;
+    align-items: right;
+    font-family: 'Katibeh', cursive;
+    width: 120px;
+}
+
+.box31 p {
+    font-family: 'Katibeh', cursive;
+    font-size: 22px;
+    
+}
+
+.box3p1 {
+    margin-top: 70px;
+    margin-left: 50px;
+    font-family: 'Katibeh', cursive;
+    font-size: 22px;
+
+}
+
+.box1 h6 {
+
+    width: 300px;
+}
+
+.box3p3 {
+    margin-left: 50px;
+    font-family: 'Katibeh', cursive;
+    font-size: 22px;
+    margin-top: 50px;
+}
